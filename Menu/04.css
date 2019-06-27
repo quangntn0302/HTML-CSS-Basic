@@ -1,0 +1,33 @@
+.cottrai {
+    font-family:  'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 13px;
+    width: 600px
+}
+
+.cottrai img {
+    width: 100%;
+}
+
+a.anhvatd {
+    text-decoration: none;
+    color: gray;
+    font-size: 25px;
+}
+
+a.anhvatd h3 {
+    margin: 0px;
+    padding: 0px;
+}
+
+a.anhvatd:hover {
+    color: blue;
+}
+
+a.nguon, a.lq {
+    text-decoration: none;
+    padding-right: 10px;
+}
+
+span.gio {
+    padding-right: 10px;
+}

@@ -1,0 +1,27 @@
+.content{
+    width: 600px;
+    background: pink;
+    padding: 20px;
+    transition: 0.4s;
+}
+.content h3{
+
+}
+
+@media (max-width: 992px) and (min-width: 567px){
+    .content {
+        width: 200px;
+        background: black;
+        color: white;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+}
+
+@media (max-width: 575px){
+    .content {
+        width: 200px;
+        background: brown;
+        color: white;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+}

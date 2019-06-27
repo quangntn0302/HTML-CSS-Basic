@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --font1: 'Oswald', sans-serif;
+    --size1: 48px;
+    --line-height1: 59px;
+
+    --font2: 'Amiri', serif;
+    --size2: 14px;
+    --color2: #666;
+}
+
+.banner_top{
+    background: url("https://www.weibergmedia.com/demos/bt/images/fullscreen03.jpg") top center;
+    height: 600px;
+    width: 100%;
+    background-size: cover;
+    position: relative;
+    background-position: left 50% bottom 60%;
+    background-attachment: fixed;
+}
+.banner_top ._3cot{
+    display: flex;
+    width: 100%;
+    position: absolute;
+    top:0;
+    left: 0;
+}
+.banner_top ._3cot ._1cot{
+    width: 33.33%;
+}
+.banner_top ._3cot ._1cot.cottrai{
+    text-align: left;
+}
+.banner_top ._3cot ._1cot.cottrai a{
+    display:inline-block;
+    font-size: 18px;
+    color: white;
+    padding: 50px 20px 20px 50px;
+    opacity: 0.9;
+}
+.banner_top ._3cot ._1cot.cottrai a:hover{
+    color: blue;
+    opacity: 0.8;
+}
+.banner_top ._3cot ._1cot.cottrai{}
+.banner_top ._3cot ._1cot.cotgiua{
+    text-align: center;
+}
+.banner_top ._3cot ._1cot.cotgiua a{
+
+}
+.banner_top ._3cot ._1cot.cotgiua a img{
+    height: 30px;
+    padding-top: 50px;
+}
+
+.banner_top ._3cot ._1cot.cotphai{
+    text-align: right;
+}
+.banner_top ._3cot ._1cot.cotphai .icon{
+    text-decoration: none;    
+    font-size: 18px;
+    display: inline-block;
+    padding: 50px 20px 20px 50px;
+    font-size: 15px;   
+}
+
+.banner_top ._3cot ._1cot.cotphai a div {
+    padding: 5px;
+    color: white;
+    opacity: 0.6;
+}
+
+.banner_top ._3cot ._1cot.cotphai a div:hover{
+    opacity: 1;
+}
+
+.banner_top:before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top:0;
+    left:0;
+    background-image:-webkit-linear-gradient(left,black 0%, #ffffff00 50%, black 100%);
+}
+
+.banner_top .text_banner{
+    color: white;
+    width: 100%;
+    position: relative;
+    top: 45%;
+}
+.banner_top .text_banner .content{
+    position: absolute;
+    top:0;
+    left: 20%;
+    width: 70%;
+}
+
+.banner_top .text_banner .content .smalltext{
+    font-size: 20px;
+    color: white;
+    opacity: 0.8;
+    width: 100%;
+    height: 50px;
+}
+.banner_top .text_banner .content .bigtext{
+    width: 70%;
+    font-size: 45px;
+    opacity: 0.8;
+}
+
+.content1{
+    width: 70%;
+    margin: auto;
+    position: relative;
+    left: 5%;
+    display: flex;
+    margin-top: 100px;
+    height: 350px;
+    font-family: var(--font2);
+    font-size: var(--size2);
+    color: var(--color2);
+}
+.content1 .left{
+    width: 30%;
+}
+.content1 .left span{
+    color: gray;
+    opacity: 0.8;
+    font-size: 20px;
+    display: block;
+    margin-top: 10px
+}
+.content1 .left h2{
+    width: 80%;
+}
+.content1 .right{
+    width: 70%;
+}
+.content1 .right p{
+    margin-top: 10px;
+    font-size: 20px;
+}
+.content1 .right a{
+    text-decoration: none;
+    color: #666;
+    font-size: 25px;
+    margin-left: 50px;
+}
+.content1 .right a:before{
+    content: "\f178";
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: 25px;
+    display: inline-block;
+    transition: 0.4s;
+    position: absolute;
+    bottom: 78px;
+    left: 285px;
+    opacity: 0.8;
+}
+
+.content1 .right a:hover:before{
+    bottom: 78px;
+    left: 300px;
+    opacity: 1;
+}

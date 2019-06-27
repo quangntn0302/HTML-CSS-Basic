@@ -1,0 +1,16 @@
+:root{
+    --mauvang: yellow;
+    --text_size1: 11px;
+    --text_size2: 12px;
+    --text_size3: 13px;
+    --font_tieude: "segoe ui light";
+    --maunen: brown;    
+}
+
+body{
+    background-color: var(--mauvang);
+}
+
+h2{
+    font-size: var(--text_size1);
+}

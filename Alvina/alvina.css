@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: white;
+}
+.gra{
+    width: 500px;
+    height: 80px;
+    background-image: -webkit-linear-gradient(top, #ffffff00, #c3c3c3);
+    transition: 3s;
+    transform: rotateZ(-45deg);
+    position: absolute;
+    top: -128px;
+    left: -297px;
+}
+
+.bo:hover .gra{
+    top: 428px;
+    left: 197px;
+    opacity: 0;
+}
+
+.bo{
+    position: relative;
+    width: 200px;
+    height: 400px;
+    background-image: url(http://www.furvilla.com/img/painties/2/2341.png?t=1467823043);
+    margin: auto;
+    margin-top: 100px;
+    overflow: hidden;
+}

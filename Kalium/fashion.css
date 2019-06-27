@@ -1,0 +1,72 @@
+.product{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 13px;
+    color: #414141;
+    width: 300px;;
+    height: 550px;
+    position: relative;
+}
+
+.anh1 {
+    width:100%;
+}
+
+.anh2 {
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    transition: 0.4s;
+    opacity: 0;
+}
+
+.product:hover .anh2{
+    opacity: 1;
+}
+
+.layer3 {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.trai {
+    
+}
+
+.trai a{
+    text-decoration: none;
+    color: black;
+}
+
+.phai {}
+
+.layer4 {
+    position: absolute;
+    bottom: 1px;
+    left: 0px;
+    transition: 0.4s;
+}
+
+.product:hover .layer4 {
+    opacity: 0;
+}
+
+.layer5 {
+    position: absolute;
+    bottom: 1px;
+    left: 0px;
+    transition: 0.4s;
+    opacity: 0;
+}
+
+.product:hover .layer5 {
+    opacity: 1;
+}
+
+.noidung{
+    display:flex;
+    width: 1000px;
+    margin:auto;
+    justify-content: space-evenly;
+}

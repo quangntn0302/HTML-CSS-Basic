@@ -1,0 +1,12 @@
+
+.vidu1{
+    padding: 10px 20px;
+    background: white;
+    text-decoration: none;
+    color: black;
+    transition: 1s;
+}
+.vidu1:hover{
+    background: green;
+    transition: 0.4s;
+}
